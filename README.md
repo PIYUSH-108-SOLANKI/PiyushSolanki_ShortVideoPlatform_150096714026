@@ -10,8 +10,8 @@ To run the simulation and view the system design artifacts:
 
 1. Clone the repository:
    ```bash
-   git clone <YOUR_GITHUB_REPO_LINK_HERE>
-   cd QuickClips
+   git clone https://github.com/PIYUSH-108-SOLANKI/PiyushSolanki_ShortVideoPlatform_150096714026.git
+   cd PiyushSolanki_ShortVideoPlatform_150096714026
    ```
 2. Ensure you have Python 3.8+ installed on your system.
 3. Install the required dependencies:
@@ -25,27 +25,15 @@ To run the simulation and view the system design artifacts:
 - `matplotlib` (for rendering the architectural and sequence diagrams)
 
 ## Execution Steps
-There are two ways to execute and review the QuickClips implementation:
 
-### 1. Jupyter Notebook (Primary Submission)
+### Jupyter Notebook (Primary Submission)
 The complete academic report, architecture diagrams, and pipeline simulations are consolidated in the final notebook.
 1. Open the notebook interface:
    ```bash
-   jupyter notebook Final_Submission/QuickClips_Final_Submission.ipynb
+   jupyter notebook PiyushSolanki_ShortVideoPlatform_150096714026.ipynb
    ```
 2. Run all cells sequentially from top to bottom.
-3. Observe the output of the **Live Demo: Video Upload Flow** and the **Personalized Feed Generation**.
-
-### 2. Python Source Files (Alternative)
-If you prefer running the raw Python simulations directly from the terminal:
-1. Run the basic recommendation engine:
-   ```bash
-   python3 recommendation_engine.py
-   ```
-2. Run the advanced TikTok-style production architecture simulation:
-   ```bash
-   python3 tiktok_style_engine.py
-   ```
+3. Observe the output of the **Live Demo: Video Upload Flow** and the **Personalized Feed Generation** directly inside the notebook.
 
 ## Additional Project Details
 - **Architecture:** Layered Microservices (API Gateway, Auth, Video, Social, Interaction, Encoding, Analytics).
